@@ -6,8 +6,8 @@ import mdisk
 import split
 
 bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "") 
+api_hash = os.environ.get("HASH", "b8e50a035abb851c0dd424e14cac4c06") 
+api_id = os.environ.get("ID", "3704772") 
 
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 
